@@ -7,6 +7,6 @@ int main()
 	while (i < 99)
 	{
 		i += 2;
-		printf("%d ", i);
+		printf("%d\n", i);
 	}
 }
