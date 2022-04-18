@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARINGS 1
-//4.´òÓ¡9*9¿Ú¾÷±í
+//4.æ‰“å°9*9ä¹˜æ³•å£è¯€è¡¨
 #include<stdio.h>
 int main()
 {
