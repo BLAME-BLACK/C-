@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARINGS 1
-//1.��Ļ�ϴ�ӡ*
+//1.打印三角形
 #include<stdio.h>
 int main()
 {
