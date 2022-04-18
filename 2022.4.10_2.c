@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARINGS 1
-//¼ÆËãnµÄ½×³Ë
+//2.ç”¨å‡½æ•°è®¡ç®—nçš„é˜¶ä¹˜
 #include<stdio.h>
 int Fac(int n)
 {
