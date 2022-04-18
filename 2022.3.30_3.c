@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARINGS 1
-//3.��ʮ�����������ֵ
+//3.找一个有序数组中的最大值
 #include<stdio.h>
 int main()
 {
