@@ -1,16 +1,16 @@
 #define _CRT_SECURE_NO_WARNINGS 1
-//4.ÇóÌİĞÎÃæ»ı
+//4.æ±‚æ¢¯å½¢é¢ç§¯
 #include<stdio.h>
 int main()
 {
 	double a, b, h, area;
-	printf("ÇëÊäÈëÉÏµ×±ß³¤:");
+	printf("è¯·è¾“å…¥ä¸Šåº•è¾¹é•¿:");
 	scanf("%lf", &a);
-	printf("ÇëÊäÈëÏÂµ×±ß³¤:");
+	printf("è¯·è¾“å…¥ä¸‹åº•è¾¹é•¿:");
 	scanf("%lf", &b);
-	printf("ÇëÊäÈë¸ß:");
+	printf("è¯·è¾“å…¥é«˜:");
 	scanf("%lf", &h);
 	area = (a + b) * h / 2;
-	printf("ÌİĞÎÃæ»ıÎª:%lf", area);
+	printf("æ¢¯å½¢é¢ç§¯ä¸º:%lf", area);
 	return 0;
 }
