@@ -1,11 +1,11 @@
 #define _CRT_SECURE_NO_WARNINGS 1
-//2.ÊäÈëËÄÎ»ÕûÊıºó½«ËÄÎ»Êıµßµ¹
+//2.è¾“å…¥å››ä½æ•´æ•°åå°†å››ä½æ•°é¢ å€’
 #include <stdio.h>
 #include <stdlib.h>
 int main(int argc, char* argv[])
 {
 	int a, s, d, f, g, h, j, k, l;
-	printf("ÇëÊäÈëËÄÎ»ÕûÊı;\n");
+	printf("è¯·è¾“å…¥å››ä½æ•´æ•°;\n");
 	scanf("%d", &a);
 	s = a / 1000;
 	d = a % 1000;
@@ -14,6 +14,6 @@ int main(int argc, char* argv[])
 	h = g / 10;
 	j = g % 10;
 	k = j / 1;
-	printf("µßµ¹ºóµÄÊı×ÖÎª;%d%d%d%d", k, h, f, s);
+	printf("é¢ å€’åçš„æ•°å­—ä¸º;%d%d%d%d", k, h, f, s);
 	return 0;
 }
