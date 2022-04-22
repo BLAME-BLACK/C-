@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS 1
-//2.ÓÃº¯ÊıÇóÈı¸öÊıÖĞµÄ×î´óÖµ
+//2.ç”¨å‡½æ•°æ±‚ä¸‰ä¸ªæ•°ä¸­çš„æœ€å¤§å€¼
 #include<stdio.h>
 float MAX(float x, float y, float z)
 {
@@ -16,9 +16,9 @@ int main()
 	float b = 0;
 	float c = 0;
 	float max = 0;
-	printf("ÇëÊäÈëa,b,cµÄÖµ£¬ÊäÈëºóÇë°´»Ø³µ¼ü\n");
+	printf("è¯·è¾“å…¥a,b,cçš„å€¼ï¼Œè¾“å…¥åè¯·æŒ‰å›è½¦é”®\n");
 	scanf("%f %f %f", &a, &b, &c);
     max = MAX(a, b, c);
-	printf("ÈıÕßÖĞ×î´óÖµÎªmax=%f",max);
+	printf("ä¸‰è€…ä¸­æœ€å¤§å€¼ä¸ºmax=%f",max);
 	return 0;
 }
