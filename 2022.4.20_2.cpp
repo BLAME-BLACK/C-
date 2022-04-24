@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS 1
-//5.ÇóÒ»¸öº¯ÊıµÄ¸ù
+//2.æ±‚ä¸€ä¸ªå‡½æ•°çš„æ ¹
 #include<stdio.h>
 #include<math.h>
 int main()
@@ -10,20 +10,20 @@ int main()
 	double b = 0.0;
     double c = 0.0;
 	double p ;
-	printf("ÇëÊäÈëÏµÊıa£¬b£¬c£¬µÄÖµ\n");
+	printf("è¯·è¾“å…¥ç³»æ•°aï¼Œbï¼Œcï¼Œçš„å€¼\n");
 	scanf("%lf%lf%lf", &a, &b, &c);
 	p = (b * b)-( 4 * a * c);
 	if (p > 0)
 	{
-		printf("¸Ã·½³ÌÓĞÁ½ÏàÒìÊµ¸ù");
+		printf("è¯¥æ–¹ç¨‹æœ‰ä¸¤ç›¸å¼‚å®æ ¹");
 	}
 	else if (p == 0)
 	{
-		printf("¸Ã·½³ÌÓĞÁ½¸öÏàÍ¬µÄ¸ù");
+		printf("è¯¥æ–¹ç¨‹æœ‰ä¸¤ä¸ªç›¸åŒçš„æ ¹");
 	}
 	else
 	{	
-		printf("¸Ã·½³ÌÓĞĞéÊı¸ù");
+		printf("è¯¥æ–¹ç¨‹æœ‰è™šæ•°æ ¹");
 	}
 	printf("\n");
 	x1 = (-b + sqrt(p)) / (2 * a);
