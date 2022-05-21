@@ -1,0 +1,11 @@
+﻿  2022.4.23_1.game.c
+D:\c语言\c语言代码\2022.4.23_1\2022.4.23_1.game.c(48,4): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  2022.4.23_1.test.c
+D:\c语言\c语言代码\2022.4.23_1\2022.4.23_1.test.c(10,27): warning C4047: “函数”:“char (*)[3]”与“char”的间接级别不同
+D:\c语言\c语言代码\2022.4.23_1\2022.4.23_1.test.c(10,22): warning C4024: “PlayMove”: 形参和实参 1 的类型不同
+D:\c语言\c语言代码\2022.4.23_1\2022.4.23_1.test.c(11,31): warning C4047: “函数”:“char (*)[3]”与“char”的间接级别不同
+D:\c语言\c语言代码\2022.4.23_1\2022.4.23_1.test.c(11,26): warning C4024: “DispalyBoard”: 形参和实参 1 的类型不同
+D:\c语言\c语言代码\2022.4.23_1\2022.4.23_1.test.c(18,31): warning C4047: “函数”:“char (*)[3]”与“char”的间接级别不同
+D:\c语言\c语言代码\2022.4.23_1\2022.4.23_1.test.c(18,26): warning C4024: “DispalyBoard”: 形参和实参 1 的类型不同
+D:\c语言\c语言代码\2022.4.23_1\2022.4.23_1.test.c(49,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在生成代码...
